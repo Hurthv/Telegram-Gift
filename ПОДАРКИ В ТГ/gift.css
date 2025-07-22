@@ -1,0 +1,428 @@
+:root {
+    --color-block: #353535;
+    --color-preblock: #303030;
+    --color-alfablock: #2F2F2F;
+
+    --font-size-tittle: 17px;
+    --font-size-subtitle: 24px;
+    --font-size-subsubtitle: 20px;
+    --font-size-steps: 4.375em;
+}
+
+
+body {
+    background: linear-gradient(90deg,rgba(47, 47, 47, 1) 0%, rgba(39, 39, 39, 1) 100%);
+    font-family: "Intro Friday", sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-div {
+    background-color: var(--color-alfablock);
+    padding: 0 450px;
+}
+
+.header-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.header-list-link.textcenter a {
+    align-items: center;
+}
+
+.header-list-link {
+    transition: all 0.3s;
+}
+
+.header-list-link:hover {
+    color: rgb(187, 187, 187);
+}
+
+main {
+    margin-top: 50px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column; /* Изменено для вертикального расположения */
+    align-items: flex-start;
+    background-color: var(--color-block);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.article-subtitle {
+    align-self: flex-start;
+    margin-left: 200px;
+    font-size: var(--font-size-subtitle);
+    position: relative;
+}
+
+.article-title {
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto; /* Центрирование элемента */
+    margin-right: auto; /* Центрирование элемента */
+    line-height: 35px;
+    font-size: var(--font-size-tittle);
+}
+
+.article-number::before {
+    display: block;
+    content: attr(data-number);
+    height: 25px;
+    width: 15px;
+
+    font-size: 4.375em;
+    line-height: 1;
+
+    -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
+
+    color: transparent;
+    opacity: 30%; 
+
+    position: absolute;
+    right: 86.5%;
+    top: 15%;
+}
+
+
+.article_2 {
+    display: flex;
+    flex-direction: column; /* Изменено для вертикального расположения */
+    align-items: flex-start;
+    background-color: var(--color-block);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.article-subtitle_2 {
+    align-self: flex-end;
+    margin-right: 200px;
+    font-size: var(--font-size-subtitle);
+    position: relative;
+}
+
+.article-number_2::before {
+    display: block;
+    content: attr(data-number);
+    height: 25px;
+    width: 15px;
+
+    font-size: 4.375em;
+    line-height: 1;
+
+    -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
+
+    color: transparent;
+    opacity: 30%; 
+
+    position: absolute;
+    right: 14.5%;
+    top: 63%;
+}
+
+.article-sub-subtitle_2 {
+    align-self: flex-start;
+    margin-left: 200px;
+    font-size: var(--font-size-subsubtitle);
+    margin-top: 20px;
+}
+
+.article-title_2 {
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto; /* Центрирование элемента */
+    margin-right: auto; /* Центрирование элемента */
+    line-height: 35px;
+    font-size: var(--font-size-tittle);
+}
+
+.article-title_2.margin {
+    margin-bottom: 40px;
+}
+
+.article-step_2 {
+    background-color: var(--color-alfablock);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.149);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--font-size-subtitle);
+}
+
+.step_1 {
+    align-self: flex-start;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: var(--font-size-steps);
+
+    -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
+
+    color: transparent;
+    opacity: 80%; 
+}
+
+.step_2 {
+    align-self: flex-end;
+    margin-right: 200px;
+    font-size: var(--font-size-steps);
+
+    -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
+
+    color: transparent;
+    opacity: 80%; 
+}
+
+
+
+.img-part_1 {
+    align-self: center;
+    width: 500px;
+    height: 550px;
+}
+
+.img-part_2 {
+    align-self: center;
+    width: 550px;
+    height: 350px;
+}
+
+.article-footer_2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 37.8%;
+    padding-left: 37.8%;
+    font-size: var(--font-size-subtitle);
+}
+
+.article_3 {
+    display: flex;
+    flex-direction: column; /* Изменено для вертикального расположения */
+    align-items: flex-start;
+    background-color: var(--color-block);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.article-subtitle_3 {
+    align-self: flex-start;
+    margin-left: 200px;
+    font-size: var(--font-size-subtitle);
+    position: relative;
+    max-width: 300px;
+}
+
+.article-title_3 {
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto; /* Центрирование элемента */
+    margin-right: auto; /* Центрирование элемента */
+    line-height: 35px;
+    font-size: var(--font-size-tittle);
+}
+
+.article-number_3::before {
+    display: block;
+    content: attr(data-number);
+    height: 25px;
+    width: 15px;
+
+    font-size: 4.375em;
+    line-height: 1;
+
+    -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
+
+    color: transparent;
+    opacity: 30%; 
+
+    position: absolute;
+    right: 86%;
+    top: 539.5%;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    background-color: var(--color-block);
+    margin-top: 200px;
+    padding: 40px;
+}
+
+.footer-text {
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto; /* Центрирование элемента */
+    margin-right: auto; /* Центрирование элемента */
+    line-height: 35px;
+    font-size: var(--font-size-tittle);
+    margin-bottom: 0;
+}
+
+@media (max-width: 1100px) {
+    /* Уменьшаем паддинги и размеры шрифтов для мобильных устройств */
+    .header-div {
+      padding: 0 20px;
+    }
+  
+    /*.header-list {
+      flex-direction: column;
+      font-size: 16px;
+    }*/
+  
+    .article {
+      padding: 20px;
+    }
+  
+    .article-subtitle {
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  
+    .article-title {
+      max-width: 100%;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  
+    /* Центрируем и уменьшаем размеры изображений */
+    .img-part_1,
+    .img-part_2 {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Убираем фиксированные отступы и ширины для блоков */
+    .article-footer_2 {
+      padding: 20px;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    /* Переустанавливаем позиционирование чисел */
+    .article-number::before,
+    .article-number_2::before,
+    .article-number_3::before {
+      right: 10%;
+      top: 10%;
+      font-size: 8vw;
+      opacity: 0;
+    }
+  
+    /* Уменьшаем размеры шрифтов */
+    /*.article-subtitle,
+    .article-subtitle_2,
+    .article-subtitle_3 {
+
+    }*/
+  
+    .article-title,
+    .article-title_2,
+    .article-title_3 {
+      font-size: 16px;
+    }
+  
+  
+    /* Убираем фиксированные отступы и ширины у контейнеров */
+    .footer-container {
+      padding: 20px;
+    }
+  }
+
+@media (max-height: 730px) {
+
+    .article-number::before,
+    .article-number_2::before,
+    .article-number_3::before {
+        opacity: 0;
+    }
+}
+
+@media (min-height: 745px) {
+
+    .article-number::before,
+    .article-number_2::before,
+    .article-number_3::before {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 405px) {
+    .step_1,
+    .step_2 {
+        align-self: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 40px;
+    }
+
+    .article-subtitle_2 {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .article-sub-subtitle_2 {
+        margin-left: 0;
+        align-self: center;
+        font-size: 19px;
+    }
+
+    .article-subtitle_3 {
+        text-align: center;
+        align-self: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-list {
+        font-size: 21px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 426px) {
+    .header-list {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375px) {
+    .article-step_2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) {
+    .article-step_2 {
+        font-size: 18px;
+    }
+}

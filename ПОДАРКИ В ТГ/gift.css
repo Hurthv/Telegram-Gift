@@ -62,6 +62,7 @@ main {
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 10px;
+    position: relative;
 }
 
 .article-subtitle {
@@ -96,7 +97,7 @@ main {
 
     position: absolute;
     right: 86.5%;
-    top: 15%;
+    top: -1%;
 }
 
 
@@ -110,6 +111,7 @@ main {
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
+    position: relative;
 }
 
 .article-subtitle_2 {
@@ -135,7 +137,7 @@ main {
 
     position: absolute;
     right: 14.5%;
-    top: 63%;
+    top: -0.1%;
 }
 
 .article-sub-subtitle_2 {
@@ -225,6 +227,7 @@ main {
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
+    position: relative;
 }
 
 .article-subtitle_3 {
@@ -260,7 +263,7 @@ main {
 
     position: absolute;
     right: 86%;
-    top: 539.5%;
+    top: -1%;
 }
 
 .footer {
@@ -284,7 +287,7 @@ main {
     margin-bottom: 0;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1305px) {
     /* Уменьшаем паддинги и размеры шрифтов для мобильных устройств */
     .header-div {
       padding: 0 20px;
@@ -313,7 +316,7 @@ main {
     /* Центрируем и уменьшаем размеры изображений */
     .img-part_1,
     .img-part_2 {
-      width: 100%;
+      width: 60%;
       height: auto;
     }
   
@@ -354,25 +357,25 @@ main {
     }
   }
 
-@media (max-height: 730px) {
+/*  @media (max-height: 730px) {
 
     .article-number::before,
     .article-number_2::before,
     .article-number_3::before {
         opacity: 0;
     }
-}
+} */
 
-@media (min-height: 745px) {
+/* @media (min-height: 745px) {
 
     .article-number::before,
     .article-number_2::before,
     .article-number_3::before {
         opacity: 0;
     }
-}
+} */
 
-@media (max-width: 405px) {
+@media (max-width: 440px) {
     .step_1,
     .step_2 {
         align-self: center;
@@ -399,6 +402,8 @@ main {
         margin-left: 0;
         margin-right: 0;
     }
+
+
 }
 
 @media (max-width: 1024px) {
@@ -409,7 +414,7 @@ main {
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 550px) {
     .header-list {
         flex-direction: column;
     }
@@ -424,5 +429,18 @@ main {
 @media (min-width: 320px) {
     .article-step_2 {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .article-title,
+    .article-title_2,
+    .article-title_3 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .footer-text {
+        font-size: 15px;
+        line-height: 23px;
     }
 }

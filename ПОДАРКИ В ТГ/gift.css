@@ -17,6 +17,26 @@ body {
     margin: 0;
 }
 
+img {
+    align-self: center;
+}
+
+.header-list-link.active {
+    color: rgb(187, 187, 187);
+}
+
+.header-list-link.active {
+    color: rgb(187, 187, 187);
+}
+
+.header-list-link.active {
+    color: rgb(187, 187, 187);
+}
+
+.header-list-link.active {
+    color: rgb(187, 187, 187);
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -443,4 +463,102 @@ main {
         font-size: 15px;
         line-height: 23px;
     }
+}
+
+.article_types {
+    display: flex;
+    flex-direction: column; /* Изменено для вертикального расположения */
+    align-items: flex-start;
+    background-color: var(--color-block);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.article_types-subtitle {
+    align-self: flex-start;
+    margin-left: 200px;
+    font-size: var(--font-size-subtitle);
+    position: relative;
+}
+
+.article_types-sub-subtitle {
+    align-self: flex-end;
+    margin-right: 200px;
+    font-size: var(--font-size-subsubtitle);
+    margin-top: 20px;
+}
+
+.article_types-title {
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 35px;
+    font-size: var(--font-size-tittle);
+}
+
+.article_types_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-block);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article_types-subtitle_2 {
+    align-self: flex-start;
+    margin-left: 200px;
+    font-size: var(--font-size-subtitle);
+    position: relative;
+}
+
+.article_types-title_2 {
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 35px;
+    font-size: var(--font-size-tittle);
+}
+
+.img_types {
+    align-self: center;
+    width: 450px;
+    height: 500px;
+}
+
+.article_types_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-block);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article_types-subtitle_3 {
+    align-self: flex-end;
+    margin-right: 200px;
+    font-size: var(--font-size-subtitle);
+    position: relative;
+}
+
+.article_types-title_3 {
+    max-width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 35px;
+    font-size: var(--font-size-tittle);
 }

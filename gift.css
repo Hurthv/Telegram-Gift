@@ -3,16 +3,18 @@
     --color-preblock: #303030;
     --color-alfablock: #2F2F2F;
 
-    --font-size-tittle: 17px;
-    --font-size-subtitle: 24px;
-    --font-size-subsubtitle: 20px;
-    --font-size-steps: 4.375em;
+    --font-size-tittle: 23px;
+    --font-size-subtitle: 25px;
+    --font-size-subsubtitle: 27px;
+    --font-size-steps: 77px;
+    --font-size-numbers: 77px;
 }
 
 
 body {
     background: linear-gradient(90deg,rgba(47, 47, 47, 1) 0%, rgba(39, 39, 39, 1) 100%);
-    font-family: "Intro Friday", sans-serif;
+    font-family: "Days One";
+    font-weight: 500;
     color: #fff;
     margin: 0;
 }
@@ -107,7 +109,7 @@ main {
     height: 25px;
     width: 15px;
 
-    font-size: 4.375em;
+    font-size: var(--font-size-numbers);
     line-height: 1;
 
     -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
@@ -147,7 +149,7 @@ main {
     height: 25px;
     width: 15px;
 
-    font-size: 4.375em;
+    font-size: var(--font-size-numbers);
     line-height: 1;
 
     -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
@@ -273,7 +275,7 @@ main {
     height: 25px;
     width: 15px;
 
-    font-size: 4.375em;
+    font-size: var(--font-size-numbers);
     line-height: 1;
 
     -webkit-text-stroke: 1px rgb(255, 255, 255); /* Обводка текста */
